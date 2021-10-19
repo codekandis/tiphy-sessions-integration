@@ -1,0 +1,49 @@
+{
+	"name": "codekandis/tiphy-sessions-integration",
+	"description": "`codekandis/tiphy-sessions-integration` is a library integrating `codekandis/sessions` into `codekandis/tiphy`.",
+	"keywords": [
+		"php",
+		"library",
+		"tiphy",
+		"sessions",
+		"integration"
+	],
+	"minimum-stability": "stable",
+	"prefer-stable": true,
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Christian Ramelow",
+			"email": "info@codekandis.net",
+			"homepage": "https://codekandis.net",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"email": "info@codekandis.net",
+		"issues": "https://github.com/codekandis/tiphy-sessions-integration/issues",
+		"docs": "https://github.com/codekandis/tiphy-sessions-integration/blob/master/README.md",
+		"source": "https://github.com/codekandis/tiphy-sessions-integration/tree/master"
+	},
+	"require": {
+		"php": ">=7.4"
+	},
+	"require-dev": {
+		"roave/security-advisories": "dev-master",
+		"codekandis/phpunit": "^3.0.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"CodeKandis\\TiphySessionsIntegration\\": [
+				"src/"
+			]
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"CodeKandis\\TiphySessionsIntegration\\Tests\\": [
+				"tests/"
+			]
+		}
+	}
+}
